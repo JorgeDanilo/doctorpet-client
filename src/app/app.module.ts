@@ -14,6 +14,9 @@ import {PasswordModule} from 'primeng/password';
 import { FuncionarioComponent } from './funcionario/funcionario.component';
 import { LoginComponent } from './login/login.component';
 import { TopbarComponent } from './topbar/topbar.component';
+import {BreadcrumbModule} from 'primeng/breadcrumb';
+import {MegaMenuModule} from 'primeng/megamenu';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { TopbarComponent } from './topbar/topbar.component';
     ButtonModule,
     RadioButtonModule,
     InputTextModule,
-    PasswordModule
+    PasswordModule,
+    BreadcrumbModule,
+    MegaMenuModule
+
   
   ],
   providers: [],

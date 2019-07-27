@@ -11,13 +11,16 @@ import {ButtonModule} from 'primeng/button';
 import {RadioButtonModule} from 'primeng/radiobutton';
 import {InputTextModule} from 'primeng/inputtext';
 import {PasswordModule} from 'primeng/password';
-
-
-
+import { FuncionarioComponent } from './funcionario/funcionario.component';
+import { LoginComponent } from './login/login.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FuncionarioComponent,
+    LoginComponent,
+    TopbarComponent,
   ],
   imports: [
     BrowserModule,

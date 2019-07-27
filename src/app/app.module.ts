@@ -6,7 +6,13 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import {MenubarModule} from 'primeng/menubar';
+import {CardModule} from 'primeng/card';
+import {ButtonModule} from 'primeng/button';
+import {RadioButtonModule} from 'primeng/radiobutton';
+import {InputTextModule} from 'primeng/inputtext';
+import {PasswordModule} from 'primeng/password';
+
+
 
 
 @NgModule({
@@ -18,7 +24,11 @@ import {MenubarModule} from 'primeng/menubar';
     BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
-    MenubarModule,
+    CardModule,
+    ButtonModule,
+    RadioButtonModule,
+    InputTextModule,
+    PasswordModule
   
   ],
   providers: [],

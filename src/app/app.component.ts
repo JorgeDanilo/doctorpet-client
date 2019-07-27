@@ -7,7 +7,7 @@ import {MenuItem} from 'primeng/api';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'doctorpet-client';
+  title = 'Doctor Pet';
 
   private items: MenuItem[];
 

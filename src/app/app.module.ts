@@ -16,6 +16,7 @@ import { LoginComponent } from './login/login.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import {BreadcrumbModule} from 'primeng/breadcrumb';
 import {MegaMenuModule} from 'primeng/megamenu';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import {MegaMenuModule} from 'primeng/megamenu';
     FuncionarioComponent,
     LoginComponent,
     TopbarComponent,
+    SidemenuComponent,
   ],
   imports: [
     BrowserModule,

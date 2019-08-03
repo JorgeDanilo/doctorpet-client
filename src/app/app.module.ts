@@ -11,21 +11,21 @@ import {ButtonModule} from 'primeng/button';
 import {RadioButtonModule} from 'primeng/radiobutton';
 import {InputTextModule} from 'primeng/inputtext';
 import {PasswordModule} from 'primeng/password';
-import { FuncionarioComponent } from './funcionario/funcionario.component';
-import { LoginComponent } from './login/login.component';
-import { TopbarComponent } from './topbar/topbar.component';
+import { LoginComponent } from './pages/login/login.component';
+import { TopbarComponent } from './pages/topbar/topbar.component';
 import {BreadcrumbModule} from 'primeng/breadcrumb';
 import {MegaMenuModule} from 'primeng/megamenu';
-import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { SidemenuComponent } from './pages/sidemenu/sidemenu.component';
+import { EmployeeSearchComponent } from './pages/employee/employee-search/employee-search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FuncionarioComponent,
     LoginComponent,
     TopbarComponent,
     SidemenuComponent,
+    EmployeeSearchComponent,
   ],
   imports: [
     BrowserModule,

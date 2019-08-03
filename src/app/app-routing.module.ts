@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FuncionarioComponent } from './funcionario/funcionario.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './pages/login/login.component';
+import { EmployeeSearchComponent } from './pages/employee/employee-search/employee-search.component';
 
 
 const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
-  {path: 'funcionario', component: FuncionarioComponent},
+  {path: 'employee/search', component: EmployeeSearchComponent},
 ];
 
 @NgModule({

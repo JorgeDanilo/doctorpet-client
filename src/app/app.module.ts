@@ -17,6 +17,7 @@ import {BreadcrumbModule} from 'primeng/breadcrumb';
 import {MegaMenuModule} from 'primeng/megamenu';
 import { SidemenuComponent } from './pages/sidemenu/sidemenu.component';
 import { EmployeeSearchComponent } from './pages/employee/employee-search/employee-search.component';
+import { EmployeeNewComponent } from './pages/employee/employee-new/employee-new.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { EmployeeSearchComponent } from './pages/employee/employee-search/employ
     TopbarComponent,
     SidemenuComponent,
     EmployeeSearchComponent,
+    EmployeeNewComponent,
   ],
   imports: [
     BrowserModule,

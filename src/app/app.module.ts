@@ -19,6 +19,8 @@ import { SidemenuComponent } from './pages/sidemenu/sidemenu.component';
 import { EmployeeSearchComponent } from './pages/employee/employee-search/employee-search.component';
 import { EmployeeNewComponent } from './pages/employee/employee-new/employee-new.component';
 import {MenuModule} from 'primeng/menu';
+import {PanelMenuModule} from 'primeng/panelmenu';
+
 
 
 @NgModule({
@@ -42,7 +44,8 @@ import {MenuModule} from 'primeng/menu';
     PasswordModule,
     BreadcrumbModule,
     MegaMenuModule,
-    MenuModule
+    MenuModule,
+    PanelMenuModule
   
   ],
   providers: [],

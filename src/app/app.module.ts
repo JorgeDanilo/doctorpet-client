@@ -20,6 +20,7 @@ import { EmployeeSearchComponent } from './pages/employee/employee-search/employ
 import { EmployeeNewComponent } from './pages/employee/employee-new/employee-new.component';
 import {MenuModule} from 'primeng/menu';
 import {PanelMenuModule} from 'primeng/panelmenu';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -33,6 +34,7 @@ import {PanelMenuModule} from 'primeng/panelmenu';
     EmployeeNewComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
